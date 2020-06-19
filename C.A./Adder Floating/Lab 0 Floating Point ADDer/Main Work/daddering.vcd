@@ -1,0 +1,124 @@
+$date
+	Tue Jan 28 15:50:43 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 1 ! selec1 $end
+$var wire 6 " result [5:0] $end
+$var reg 5 # a [4:0] $end
+$var reg 1 $ add_sub $end
+$var reg 5 % b [4:0] $end
+$scope module s1 $end
+$var wire 1 $ add_sub $end
+$var wire 5 & dataa [4:0] $end
+$var wire 5 ' datab [4:0] $end
+$var wire 1 ! sign12 $end
+$var wire 6 ( asnwer [5:0] $end
+$var reg 6 ) result [5:0] $end
+$var reg 1 * selec1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+b101 )
+b101 (
+b10 '
+b11 &
+b10 %
+1$
+b11 #
+b101 "
+0!
+$end
+#10
+b0 "
+b0 (
+1!
+1*
+b111111 )
+0$
+b110 %
+b110 '
+b101 #
+b101 &
+#20
+b1110 "
+b1110 (
+0!
+0*
+b1110 )
+1$
+b111 %
+b111 '
+b111 #
+b111 &
+#30
+b111 "
+b111 (
+1!
+1*
+b111000 )
+0$
+b1111 %
+b1111 '
+#40
+b1010 "
+b1010 (
+0!
+0*
+b1010 )
+1$
+b11 %
+b11 '
+#50
+b1111 "
+b1111 (
+b1111 )
+0$
+b0 %
+b0 '
+b1111 #
+b1111 &
+#60
+b110010 "
+b110010 (
+b110010 )
+1$
+b10110 %
+b10110 '
+b11100 #
+b11100 &
+#70
+b10010 "
+b10010 (
+b10010 )
+0$
+b1100 %
+b1100 '
+b11110 #
+b11110 &
+#80
+b101 "
+b101 (
+b101 )
+b1111 %
+b1111 '
+b10100 #
+b10100 &
+#90
+b110100 "
+b110100 (
+b110100 )
+1$
+b10110 %
+b10110 '
+b11110 #
+b11110 &
+#100

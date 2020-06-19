@@ -1,0 +1,98 @@
+$date
+	Mon Jan 20 23:38:51 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 16 ! aout [15:0] $end
+$var wire 1 " signout $end
+$var wire 8 # expout [7:0] $end
+$var reg 16 $ a [15:0] $end
+$var reg 8 % a1 [7:0] $end
+$var reg 16 & b [15:0] $end
+$var reg 8 ' b1 [7:0] $end
+$var reg 1 ( sign1 $end
+$var reg 1 ) sign2 $end
+$scope module m2 $end
+$var wire 8 * exp1 [7:0] $end
+$var wire 8 + exp2 [7:0] $end
+$var wire 16 , inp1 [15:0] $end
+$var wire 16 - inp2 [15:0] $end
+$var wire 16 . out [15:0] $end
+$var wire 8 / outexp [7:0] $end
+$var wire 1 ( sgn1 $end
+$var wire 1 ) sgn2 $end
+$var wire 1 " sgnout $end
+$var wire 1 0 select $end
+$var wire 8 1 dif1f [7:0] $end
+$var reg 8 2 tmexp1 [7:0] $end
+$var reg 8 3 tmexp2 [7:0] $end
+$scope module m12 $end
+$var wire 1 4 add_sub $end
+$var wire 8 5 dataa [7:0] $end
+$var wire 8 6 datab [7:0] $end
+$var wire 5 7 siwz1 [4:0] $end
+$var wire 1 0 select1 $end
+$var wire 8 8 result1 [7:0] $end
+$var reg 9 9 result [8:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 9
+bx 8
+b111 7
+bx 6
+bx 5
+04
+bx 3
+bx 2
+bx 1
+x0
+bx /
+bz .
+b0 -
+b0 ,
+b1011 +
+b10001 *
+0)
+0(
+b1011 '
+b0 &
+b10001 %
+b0 $
+bx #
+z"
+bz !
+$end
+#10
+b1 $
+b1 ,
+#20
+b1110 %
+b1110 *
+b11 &
+b11 -
+b11 $
+b11 ,
+#30
+b1011 %
+b1011 *
+b111 &
+b111 -
+b1011 $
+b1011 ,
+#40
+b1001 %
+b1001 *
+b1111 &
+b1111 -
+b1100001111 $
+b1100001111 ,
+#50

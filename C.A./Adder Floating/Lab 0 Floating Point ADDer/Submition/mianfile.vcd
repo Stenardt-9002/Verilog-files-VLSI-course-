@@ -1,0 +1,406 @@
+$date
+	Fri Jun 19 13:25:52 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 1 ! signout $end
+$var wire 6 " expout [5:0] $end
+$var wire 11 # aout [10:0] $end
+$var reg 11 $ a [10:0] $end
+$var reg 5 % a1 [4:0] $end
+$var reg 11 & b [10:0] $end
+$var reg 5 ' b1 [4:0] $end
+$var reg 1 ( operatin $end
+$var reg 1 ) sign1 $end
+$var reg 1 * sign2 $end
+$scope module m22 $end
+$var wire 5 + exp1 [4:0] $end
+$var wire 5 , exp2 [4:0] $end
+$var wire 11 - inp1 [10:0] $end
+$var wire 11 . inp2 [10:0] $end
+$var wire 1 ( operatin $end
+$var wire 6 / outexp [5:0] $end
+$var wire 1 ) sgn1 $end
+$var wire 1 * sgn2 $end
+$var wire 1 ! sgnout $end
+$var wire 1 0 whethertoaddorsub $end
+$var wire 12 1 tmpoutput [11:0] $end
+$var wire 5 2 tmexp2 [4:0] $end
+$var wire 5 3 tmexp1 [4:0] $end
+$var wire 1 4 tempsign2 $end
+$var wire 1 5 tempsign1 $end
+$var wire 11 6 tempinp2 [10:0] $end
+$var wire 11 7 tempinp1 [10:0] $end
+$var wire 1 8 signansexp $end
+$var wire 11 9 shiftedinput [10:0] $end
+$var wire 11 : out [10:0] $end
+$var wire 1 ; greatrornot $end
+$var wire 4 < firstone [3:0] $end
+$var wire 6 = diifeexp [5:0] $end
+$var reg 6 > tempe1xp [5:0] $end
+$var reg 12 ? tmpotu [11:0] $end
+$var reg 4 @ valuetobeanswerexpshif [3:0] $end
+$scope module a123 $end
+$var wire 5 A shiftamnt [4:0] $end
+$var wire 11 B b [10:0] $end
+$var wire 11 C a [10:0] $end
+$upscope $end
+$scope module findingpro $end
+$var wire 1 D enable $end
+$var wire 12 E encoder_in [11:0] $end
+$var reg 4 F binary_out [3:0] $end
+$upscope $end
+$scope module m0112 $end
+$var wire 1 G add_sub $end
+$var wire 1 8 sign12 $end
+$var wire 5 H datab [4:0] $end
+$var wire 5 I dataa [4:0] $end
+$var wire 6 J asnwer [5:0] $end
+$var reg 6 K result [5:0] $end
+$var reg 1 L selec1 $end
+$upscope $end
+$scope module shiftedsump1m $end
+$var wire 1 0 add_sub $end
+$var wire 11 M datab [10:0] $end
+$var wire 1 ; sign12 $end
+$var wire 12 N temp [11:0] $end
+$var wire 11 O dataa [10:0] $end
+$var wire 12 P answer [11:0] $end
+$var reg 12 Q result [11:0] $end
+$var reg 1 R selec1 $end
+$scope module a1 $end
+$var wire 12 S asnwer [11:0] $end
+$var wire 12 T dataa [11:0] $end
+$var wire 1 ; e1nable $end
+$var reg 12 U result [11:0] $end
+$upscope $end
+$upscope $end
+$scope module start $end
+$var wire 5 V exp1 [4:0] $end
+$var wire 5 W exp2 [4:0] $end
+$var wire 11 X inp1 [10:0] $end
+$var wire 11 Y inp2 [10:0] $end
+$var wire 1 ) sgn1 $end
+$var wire 1 * sgn2 $end
+$var reg 5 Z outexp1 [4:0] $end
+$var reg 5 [ outexp2 [4:0] $end
+$var reg 11 \ outinp1 [10:0] $end
+$var reg 11 ] outinp2 [10:0] $end
+$var reg 1 5 outsgn1 $end
+$var reg 1 4 outsgn2 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11000000100 ]
+b11000000000 \
+b1011 [
+b10001 Z
+b11000000100 Y
+b11000000000 X
+b1011 W
+b10001 V
+b11000011000 U
+b11000011000 T
+b11000011000 S
+0R
+b11000011000 Q
+b11000011000 P
+b11000000000 O
+b11000011000 N
+b11000 M
+0L
+b110 K
+b110 J
+b10001 I
+b1011 H
+0G
+b1010 F
+b11000011000 E
+1D
+b11000000100 C
+b11000 B
+b110 A
+b0 @
+b11000011000 ?
+b10001 >
+b110 =
+b1010 <
+0;
+b11000011000 :
+b11000 9
+08
+b11000000000 7
+b11000000100 6
+05
+04
+b10001 3
+b1011 2
+b11000011000 1
+10
+b10001 /
+b11000000100 .
+b11000000000 -
+b1011 ,
+b10001 +
+0*
+0)
+0(
+b1011 '
+b11000000100 &
+b10001 %
+b11000000000 $
+b11000011000 #
+b10001 "
+0!
+$end
+#10
+b11000011001 #
+b11000011001 :
+b11000011001 ?
+b1010 <
+b1010 F
+b11000011001 1
+b11000011001 E
+b11000011001 P
+b11000011001 S
+b11000011001 U
+b11000011001 N
+b11000011001 T
+b11000011001 Q
+b11000000000 6
+b11000000000 C
+b11000000000 ]
+b11000000001 7
+b11000000001 O
+b11000000001 \
+b11000000000 &
+b11000000000 .
+b11000000000 Y
+b11000000001 $
+b11000000001 -
+b11000000001 X
+#20
+b11011000011 #
+b11011000011 :
+b11011000011 ?
+b1010 <
+b1010 F
+b11000000 9
+b11000000 B
+b11000000 M
+b11 A
+b11011000011 1
+b11011000011 E
+b11011000011 P
+b11011000011 S
+b11011000011 U
+b11 =
+b11 J
+b11011000011 N
+b11011000011 T
+b1110 "
+b1110 /
+b1110 >
+b11 K
+b11011000011 Q
+b1110 3
+b1110 I
+b1110 Z
+b11000000001 6
+b11000000001 C
+b11000000001 ]
+b11000000011 7
+b11000000011 O
+b11000000011 \
+b1110 %
+b1110 +
+b1110 V
+b11000000001 &
+b11000000001 .
+b11000000001 Y
+b11000000011 $
+b11000000011 -
+b11000000011 X
+#30
+b10000000011 #
+b10000000011 :
+b10000000011 ?
+b1011 <
+b1011 F
+b0 A
+b100000000110 1
+b100000000110 E
+b100000000110 P
+b100000000110 S
+b100000000110 U
+b0 =
+b0 J
+b100000000110 N
+b100000000110 T
+b1100 "
+b1100 /
+b1100 >
+b0 K
+b100000000110 Q
+b1011 3
+b1011 I
+b1011 Z
+b10000000100 9
+b10000000100 B
+b10000000100 M
+b10000000100 6
+b10000000100 C
+b10000000100 ]
+b10000000010 7
+b10000000010 O
+b10000000010 \
+b1011 %
+b1011 +
+b1011 V
+b10000000100 &
+b10000000100 .
+b10000000100 Y
+b10000000010 $
+b10000000010 -
+b10000000010 X
+#40
+b10000000111 #
+b10000000111 :
+b10000000111 ?
+b10 A
+b100000001110 1
+b100000001110 E
+b100000001110 P
+b100000001110 S
+b100000001110 U
+b10 =
+b10 J
+b100000001110 N
+b100000001110 T
+b10 K
+b100000001110 Q
+b1001 2
+b1001 H
+b1001 [
+b101110011 9
+b101110011 B
+b101110011 M
+b10111001100 6
+b10111001100 C
+b10111001100 ]
+b11010011011 7
+b11010011011 O
+b11010011011 \
+b1001 %
+b1001 +
+b1001 V
+b11010011011 &
+b11010011011 .
+b11010011011 Y
+b10111001100 $
+b10111001100 -
+b10111001100 X
+#50
+b10010000001 #
+b10010000001 :
+b10010000001 ?
+b100100000011 1
+b100100000011 E
+b100100000011 P
+b100100000011 S
+b100100000011 U
+b100100000011 N
+b100100000011 T
+b11110 "
+b11110 /
+b11110 >
+b100100000011 Q
+b11011 2
+b11011 H
+b11011 [
+b11101 3
+b11101 I
+b11101 Z
+b110011010 9
+b110011010 B
+b110011010 M
+b11001101001 6
+b11001101001 C
+b11001101001 ]
+b11101101001 7
+b11101101001 O
+b11101101001 \
+b11011 '
+b11011 ,
+b11011 W
+b11101 %
+b11101 +
+b11101 V
+b11001101001 &
+b11001101001 .
+b11001101001 Y
+b11101101001 $
+b11101101001 -
+b11101101001 X
+#60
+b1 @
+b10000000000 #
+b10000000000 :
+b10000000000 ?
+b1001 <
+b1001 F
+b1 A
+b1000000000 1
+b1000000000 E
+b1000000000 P
+b1000000000 S
+b1000000000 U
+b1 =
+b1 J
+1!
+b1000000000 N
+b1000000000 T
+00
+b10000 "
+b10000 /
+b10000 >
+b1 K
+b1000000000 Q
+b10000 2
+b10000 H
+b10000 [
+b10001 3
+b10001 I
+b10001 Z
+15
+b1100000000 9
+b1100000000 B
+b1100000000 M
+b11000000000 6
+b11000000000 C
+b11000000000 ]
+b10100000000 7
+b10100000000 O
+b10100000000 \
+b10000 '
+b10000 ,
+b10000 W
+b10001 %
+b10001 +
+b10001 V
+1)
+b11000000000 &
+b11000000000 .
+b11000000000 Y
+b10100000000 $
+b10100000000 -
+b10100000000 X
+#70

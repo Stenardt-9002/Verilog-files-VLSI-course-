@@ -1,0 +1,76 @@
+$date
+	Tue Jan 28 04:02:20 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 4 ! result [3:0] $end
+$var reg 11 " a [10:0] $end
+$var reg 1 # endable $end
+$scope module s1 $end
+$var wire 1 # enable $end
+$var wire 11 $ encoder_in [10:0] $end
+$var reg 4 % binary_out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1001 %
+b1001000011 $
+1#
+b1001000011 "
+b1001 !
+$end
+#10
+b1001 !
+b1001 %
+b1001000101 "
+b1001000101 $
+#20
+b1001 !
+b1001 %
+b1001001111 "
+b1001001111 $
+#30
+b110 !
+b110 %
+b1100111 "
+b1100111 $
+#40
+b1001 !
+b1001 %
+b1001010111 "
+b1001010111 $
+#50
+b1010 !
+b1010 %
+0#
+b11001111 "
+b11001111 $
+#60
+b1000 !
+b1000 %
+1#
+b101011100 "
+b101011100 $
+#70
+b1010 !
+b1010 %
+0#
+b1101001010 "
+b1101001010 $
+#80
+b1101000110 "
+b1101000110 $
+#90
+b1001 !
+b1001 %
+1#
+b1101001111 "
+b1101001111 $
+#100

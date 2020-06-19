@@ -1,0 +1,75 @@
+$date
+	Tue Jan 28 04:28:23 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 11 ! result [10:0] $end
+$var reg 10 " a [9:0] $end
+$var reg 1 # add_sub $end
+$scope module s1 $end
+$var wire 11 $ asnwer [10:0] $end
+$var wire 10 % dataa [9:0] $end
+$var wire 1 # e1nable $end
+$var reg 11 & result [10:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 &
+b11 %
+b100 $
+1#
+b11 "
+b100 !
+$end
+#10
+b110 !
+b110 $
+b110 &
+b101 "
+b101 %
+#20
+b1000 !
+b1000 $
+b1000 &
+b111 "
+b111 %
+#50
+b10000 !
+b10000 $
+b10000 &
+b1111 "
+b1111 %
+#60
+b11101 !
+b11101 $
+b11101 &
+b11100 "
+b11100 %
+#70
+b11110 !
+b11110 $
+b11110 &
+0#
+b11110 "
+b11110 %
+#80
+b10101 !
+b10101 $
+b10101 &
+1#
+b10100 "
+b10100 %
+#90
+b100000 !
+b100000 $
+b100000 &
+b11111 "
+b11111 %
+#100

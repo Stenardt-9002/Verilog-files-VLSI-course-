@@ -1,0 +1,209 @@
+$date
+	Tue Jan 28 14:52:34 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 1 ! outsign1 $end
+$var wire 1 " outsgn2 $end
+$var wire 10 # outinp2 [9:0] $end
+$var wire 10 $ outinp1 [9:0] $end
+$var wire 5 % outexp2 [4:0] $end
+$var wire 5 & outexp1 [4:0] $end
+$var reg 5 ' exp1 [4:0] $end
+$var reg 5 ( exp2 [4:0] $end
+$var reg 10 ) inp1 [9:0] $end
+$var reg 10 * inp2 [9:0] $end
+$var reg 1 + sgn1 $end
+$var reg 1 , sgn2 $end
+$scope module v1 $end
+$var wire 5 - exp1 [4:0] $end
+$var wire 5 . exp2 [4:0] $end
+$var wire 10 / inp1 [9:0] $end
+$var wire 10 0 inp2 [9:0] $end
+$var wire 1 + sgn1 $end
+$var wire 1 , sgn2 $end
+$var reg 5 1 outexp1 [4:0] $end
+$var reg 5 2 outexp2 [4:0] $end
+$var reg 10 3 outinp1 [9:0] $end
+$var reg 10 4 outinp2 [9:0] $end
+$var reg 1 ! outsgn1 $end
+$var reg 1 " outsgn2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100000 4
+b0 3
+b1011 2
+b10001 1
+b100000 0
+b0 /
+b1011 .
+b10001 -
+0,
+0+
+b100000 *
+b0 )
+b1011 (
+b10001 '
+b10001 &
+b1011 %
+b0 $
+b100000 #
+0"
+0!
+$end
+#10
+b0 #
+b0 4
+b1 $
+b1 3
+b0 *
+b0 0
+b1 )
+b1 /
+#20
+b1110 &
+b1110 1
+b1 #
+b1 4
+b11 $
+b11 3
+b1110 '
+b1110 -
+b1 *
+b1 0
+b11 )
+b11 /
+#30
+b1011 &
+b1011 1
+b11 #
+b11 4
+b1110 $
+b1110 3
+b1011 '
+b1011 -
+b11 *
+b11 0
+b1110 )
+b1110 /
+#40
+b1001 %
+b1001 2
+b111100100 #
+b111100100 4
+b110000111 $
+b110000111 3
+b1001 '
+b1001 -
+b110000111 *
+b110000111 0
+b111100100 )
+b111100100 /
+#50
+b11011 %
+b11011 2
+b11101 &
+b11101 1
+b10001101 #
+b10001101 4
+b1110000001 $
+b1110000001 3
+b11011 (
+b11011 .
+b11101 '
+b11101 -
+b10001101 *
+b10001101 0
+b1110000001 )
+b1110000001 /
+#60
+b1011 %
+b1011 2
+b10001 &
+b10001 1
+b100000 #
+b100000 4
+b0 $
+b0 3
+b1011 (
+b1011 .
+b10001 '
+b10001 -
+b100000 *
+b100000 0
+b0 )
+b0 /
+#70
+b0 #
+b0 4
+b1 $
+b1 3
+b0 *
+b0 0
+b1 )
+b1 /
+#80
+b1110 &
+b1110 1
+b1 #
+b1 4
+b11 $
+b11 3
+b1110 '
+b1110 -
+b1 *
+b1 0
+b11 )
+b11 /
+#90
+b1011 &
+b1011 1
+b11 #
+b11 4
+b1110 $
+b1110 3
+b1011 '
+b1011 -
+b11 *
+b11 0
+b1110 )
+b1110 /
+#100
+b1001 %
+b1001 2
+b111100100 #
+b111100100 4
+b110000111 $
+b110000111 3
+b1001 '
+b1001 -
+b110000111 *
+b110000111 0
+b111100100 )
+b111100100 /
+#110
+b11011 %
+b11011 2
+b11101 &
+b11101 1
+b10001101 #
+b10001101 4
+b1110000001 $
+b1110000001 3
+b11011 (
+b11011 .
+b11101 '
+b11101 -
+b10001101 *
+b10001101 0
+b1110000001 )
+b1110000001 /
+#120

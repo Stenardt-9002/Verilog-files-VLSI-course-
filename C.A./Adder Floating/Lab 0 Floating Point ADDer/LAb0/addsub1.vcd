@@ -1,0 +1,79 @@
+$date
+	Tue Jan 14 15:17:31 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 17 ! ans1 [16:0] $end
+$var reg 16 " a [15:0] $end
+$var reg 16 # b [15:0] $end
+$var reg 1 $ clk $end
+$scope module m2 $end
+$var wire 1 $ clk $end
+$var wire 16 % dataa [15:0] $end
+$var wire 16 & datab [15:0] $end
+$var reg 17 ' result [16:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+1$
+b0 #
+b0 "
+b0 !
+$end
+#10
+b1 "
+b1 %
+#20
+b11 #
+b11 &
+b11 "
+b11 %
+#30
+b111 #
+b111 &
+b1011 "
+b1011 %
+#40
+b1111 #
+b1111 &
+b1100001111 "
+b1100001111 %
+#60
+b101111 #
+b101111 &
+#70
+b10001011 #
+b10001011 &
+#80
+b11101 #
+b11101 &
+#90
+b1001111 #
+b1001111 &
+#100
+b1011101 #
+b1011101 &
+b1010110 "
+b1010110 %
+#110
+b1111110100101 #
+b1111110100101 &
+b1010110111000 "
+b1010110111000 %
+#120
+b1110101011000101 #
+b1110101011000101 &
+b1111000001111000 "
+b1111000001111000 %
+#130
+0$

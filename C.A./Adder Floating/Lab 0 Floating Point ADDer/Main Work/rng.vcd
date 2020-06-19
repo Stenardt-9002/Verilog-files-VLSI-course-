@@ -1,0 +1,65 @@
+$date
+	Tue Jan 28 13:38:40 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module barrel_shifter_8bit_tb $end
+$var wire 10 ! out [9:0] $end
+$var reg 5 " ctrl [4:0] $end
+$var reg 10 # in [9:0] $end
+$scope module uut $end
+$var wire 10 $ a [9:0] $end
+$var wire 5 % shiftamnt [4:0] $end
+$var wire 10 & b [9:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b100 "
+b100 %
+b1000 !
+b1000 &
+b10000000 #
+b10000000 $
+#20
+b100000 !
+b100000 &
+b10 "
+b10 %
+#30
+b1000000 !
+b1000000 &
+b1 "
+b1 %
+#40
+b111 "
+b111 %
+b1 !
+b1 &
+b11111111 #
+b11111111 $
+#50
+b1001 "
+b1001 %
+b1 !
+b1 &
+b1111111111 #
+b1111111111 $
+#60
+b0 !
+b0 &
+b1011 "
+b1011 %

@@ -1,0 +1,87 @@
+#! /usr/bin/vvp
+:ivl_version "10.1 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x55e205a8c580 .scope module, "barrel_shifter_8bit_tb" "barrel_shifter_8bit_tb" 2 52;
+ .timescale 0 0;
+v0x55e205aac730_0 .var "ctrl", 4 0;
+v0x55e205aac7f0_0 .var "in", 9 0;
+v0x55e205aac890_0 .net "out", 9 0, L_0x55e205aacd30;  1 drivers
+S_0x55e205a8c880 .scope module, "uut" "barrel_shifter_8bit" 2 58, 3 55 0, S_0x55e205a8c580;
+ .timescale 0 0;
+    .port_info 0 /INPUT 10 "a"
+    .port_info 1 /INPUT 5 "shiftamnt"
+    .port_info 2 /OUTPUT 10 "b"
+v0x55e205a8ca50_0 .net "a", 9 0, v0x55e205aac7f0_0;  1 drivers
+v0x55e205aac510_0 .net "b", 9 0, L_0x55e205aacd30;  alias, 1 drivers
+v0x55e205aac5f0_0 .net "shiftamnt", 4 0, v0x55e205aac730_0;  1 drivers
+L_0x55e205aacd30 .shift/r 10, v0x55e205aac7f0_0, v0x55e205aac730_0;
+S_0x55e205a8c700 .scope module, "mux2_1" "mux2_1" 3 116;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "in0"
+    .port_info 1 /INPUT 1 "in1"
+    .port_info 2 /INPUT 1 "sel"
+    .port_info 3 /OUTPUT 1 "b"
+v0x55e205aac990_0 .net "b", 0 0, L_0x55e205aacee0;  1 drivers
+o0x7fcdb32db168 .functor BUFZ 1, C4<z>; HiZ drive
+v0x55e205aaca30_0 .net "in0", 0 0, o0x7fcdb32db168;  0 drivers
+o0x7fcdb32db198 .functor BUFZ 1, C4<z>; HiZ drive
+v0x55e205aacaf0_0 .net "in1", 0 0, o0x7fcdb32db198;  0 drivers
+o0x7fcdb32db1c8 .functor BUFZ 1, C4<z>; HiZ drive
+v0x55e205aacbc0_0 .net "sel", 0 0, o0x7fcdb32db1c8;  0 drivers
+L_0x55e205aacee0 .functor MUXZ 1, o0x7fcdb32db168, o0x7fcdb32db198, o0x7fcdb32db1c8, C4<>;
+    .scope S_0x55e205a8c580;
+T_0 ;
+    %pushi/vec4 0, 0, 10;
+    %store/vec4 v0x55e205aac7f0_0, 0, 10;
+    %pushi/vec4 0, 0, 5;
+    %store/vec4 v0x55e205aac730_0, 0, 5;
+    %delay 10, 0;
+    %pushi/vec4 128, 0, 10;
+    %store/vec4 v0x55e205aac7f0_0, 0, 10;
+    %pushi/vec4 4, 0, 5;
+    %store/vec4 v0x55e205aac730_0, 0, 5;
+    %delay 10, 0;
+    %pushi/vec4 128, 0, 10;
+    %store/vec4 v0x55e205aac7f0_0, 0, 10;
+    %pushi/vec4 2, 0, 5;
+    %store/vec4 v0x55e205aac730_0, 0, 5;
+    %delay 10, 0;
+    %pushi/vec4 128, 0, 10;
+    %store/vec4 v0x55e205aac7f0_0, 0, 10;
+    %pushi/vec4 1, 0, 5;
+    %store/vec4 v0x55e205aac730_0, 0, 5;
+    %delay 10, 0;
+    %pushi/vec4 255, 0, 10;
+    %store/vec4 v0x55e205aac7f0_0, 0, 10;
+    %pushi/vec4 7, 0, 5;
+    %store/vec4 v0x55e205aac730_0, 0, 5;
+    %delay 10, 0;
+    %pushi/vec4 1023, 0, 10;
+    %store/vec4 v0x55e205aac7f0_0, 0, 10;
+    %pushi/vec4 9, 0, 5;
+    %store/vec4 v0x55e205aac730_0, 0, 5;
+    %delay 10, 0;
+    %pushi/vec4 1023, 0, 10;
+    %store/vec4 v0x55e205aac7f0_0, 0, 10;
+    %pushi/vec4 11, 0, 5;
+    %store/vec4 v0x55e205aac730_0, 0, 5;
+    %end;
+    .thread T_0;
+    .scope S_0x55e205a8c580;
+T_1 ;
+    %vpi_call 2 76 "$monitor", "time = %2d,  a=%d, amnt = %d, b=%d ", $time, v0x55e205aac7f0_0, v0x55e205aac730_0, v0x55e205aac890_0 {0 0 0};
+    %vpi_call 2 77 "$dumpfile", "rng.vcd" {0 0 0};
+    %vpi_call 2 78 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x55e205a8c580 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tbshieftr.v";
+    "shifter1.v";
